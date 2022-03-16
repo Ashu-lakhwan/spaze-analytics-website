@@ -20,7 +20,7 @@ check_logged_out();
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Data Analytics and Spazetech Solutions</title>
     <meta name="description" content="Spaze Analytics have always done things in different ways. Our work culture create our workforce somewhere different from other organization cultures.">
-<meta name="keywords" content="E-commerce Analytics use cases, E-commerce services, E-commerce Analytics tools, E-commerce Analytics Software, E Commerce Data Analysis, E commerce Data Analytics Projects, E commerce analysis report, E commerce analytics of data, e commerce industry analysis pdf, e commerce analytics data analysis, web analytics for ecommerce, ecommerce customer analytics, ecommerce analytics from data to decisions, data analytics in e-commerce">
+<!-- <meta name="keywords" content="E-commerce Analytics use cases, E-commerce services, E-commerce Analytics tools, E-commerce Analytics Software, E Commerce Data Analysis, E commerce Data Analytics Projects, E commerce analysis report, E commerce analytics of data, e commerce industry analysis pdf, e commerce analytics data analysis, web analytics for ecommerce, ecommerce customer analytics, ecommerce analytics from data to decisions, data analytics in e-commerce"> -->
 <meta name="image" content="https://spazeanalytics.com/img/icon.png">
 <!-- Schema.org for Google -->
 <meta itemprop="name" content="Spaze Analytics">
@@ -59,6 +59,15 @@ check_logged_out();
 <!-- Custom styles -->
 <link rel="stylesheet" href="../assets/css/app.css">
 <link rel="stylesheet" href="../../custom.css" >
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C5JQX06RLM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C5JQX06RLM');
+</script>
   </head>
   <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
